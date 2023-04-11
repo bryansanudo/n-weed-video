@@ -28,6 +28,18 @@ const Gelam = () => {
       id: 5,
       src: "https://www.youtube.com/embed/um_W5awDS4s",
     },
+    {
+      id: 6,
+      src: "https://www.youtube.com/embed/9gN55pc4BpA",
+    },
+    {
+      id: 7,
+      src: "https://www.youtube.com/embed/QH3zMya7VUY",
+    },
+    {
+      id: 8,
+      src: "https://www.youtube.com/embed/j28X_0KwWIo",
+    },
   ];
 
   const useScroll = () => {
