@@ -47,7 +47,7 @@ const Header = ({
               className="rounded-full object-cover hover:scale-105 transition-300  md:h-24 md:w-24 h-20 w-20  duration-300 shadow-lg   shadow-[#ffcdc2]"
             />
           </a>
-          <a href="https://eliana-nweed-gallery.netlify.app/">
+          <a href="https://eliana-nweed-video.netlify.app/">
             <img
               src={logoVideo}
               alt=""
