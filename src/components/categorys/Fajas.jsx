@@ -10,12 +10,12 @@ const Fajas = () => {
   const portfolios = [
     {
       id: 1,
-      src: "https://drive.google.com/file/d/1ACh6AQa-fzWhF1dnKxghwBSzFzo5s6PK/preview",
+      src: "https://player.vimeo.com/video/816374678?h=cc4c828968&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       category: "@elianacaro12",
       codeInstagram: "https://www.instagram.com/elianacaro12/",
       codeWpp: "https://api.whatsapp.com/send?phone=573045571083",
     },
-    {
+    /* {
       id: 2,
       src: "https://drive.google.com/file/d/1eyI9NK7XuLTPUVxFUpHXHGb4sNlFP_cu/preview",
       category: "@elianacaro12",
@@ -56,7 +56,7 @@ const Fajas = () => {
       category: "@elianacaro12",
       codeInstagram: "https://www.instagram.com/elianacaro12/",
       codeWpp: "https://api.whatsapp.com/send?phone=573045571083",
-    },
+    }, */
   ];
 
   const useScroll = () => {
@@ -115,12 +115,22 @@ const Fajas = () => {
                     className="rounded-lg shadow-lg shadow-[#ffcdc2] "
                   >
                     <div className="flex flex-col items-center justify-center">
-                      <iframe
+                      {/*  <iframe
                         src={src}
                         className="h-[330px] md:h-[500px]  w-full  object-cover rounded-t-xl "
                         allow="autoplay"
                         allowfullscreen="fullscreen"
+                      /> */}
+
+                      <iframe
+                        src={src}
+                        allow="autoplay; fullscreen; picture-in-picture"
+                        allowFullScreen
+                        title="eliana (2).mov"
+                        className="h-[330px] md:h-[500px]  w-full  object-cover rounded-t-xl "
                       />
+
+                      <script src="https://player.vimeo.com/api/player.js"></script>
 
                       <div className="m-4 capitalize text-sm md:text-lg flex items-center justify-center gap-5">
                         <article className="flex hover:scale-125 duration-300">
